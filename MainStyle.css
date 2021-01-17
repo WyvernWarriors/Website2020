@@ -14,17 +14,19 @@
   }
   .links a {
     position: relative;
-    padding-left: 10px;
-    padding-right:10px;
+    padding-left: 20px;
+    padding-right:20px;
     padding-bottom: 5px;
+    width:12rem;
     text-decoration: none;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    
   }
   .bg {
-     transform: skewX(-20deg) translateX(20px);
+     transform: skewX(-20deg) translateX(22px);
      height:100%;
      position: absolute;
      z-index: 0;
@@ -32,6 +34,7 @@
      left:0;
      right:0;
      bottom:0;
+     display:;
      
   }
   #title {
@@ -44,6 +47,9 @@
   .links span {
     position:relative;
     z-index: 1;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
   }
   body {
     padding : 0% ;
@@ -91,8 +97,17 @@
   #link5 {
     width: 210px;
   }
-  #link5 .bg {
+  #link5 .aaaa {
     background-color: #FF4284;
+    transform: skewX(-20deg) translateX(20px);
+    height:100%;
+    position: absolute;
+    width:300px;
+    z-index: 0;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
   }
   #stuff {
     display : flex;
