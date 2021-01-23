@@ -1,6 +1,12 @@
 * {
     box-sizing: border-box;
   }
+  #mainbox {
+    font-family: 'Montserrat', sans-serif;
+  }
+  #wovvy {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
   .links {
     text-align : right;
     color: white;
@@ -12,7 +18,7 @@
     bottom:0;
     left:0;
   }
-  .links a {
+  .links a, .links div {
     position: relative;
     padding-left: 20px;
     padding-right:20px;
@@ -117,16 +123,19 @@
   }
   
   .dropdown {
+    position: relative;
     display:block;
   }
   
   #testHide {
   }
 
-  .dropcont {
+  #dropcont {
+    bottom: 0px;
     display: none;
+    position: absolute;
   }
-
-  .dropbtn:hover .dropcont {
+  
+  .dropbtn:hover #dropcont {
     display:block;
   }
