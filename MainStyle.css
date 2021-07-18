@@ -40,7 +40,7 @@
      left:0;
      right:0;
      bottom:0;
-     display:;
+     
      
   }
   #title {
@@ -135,7 +135,23 @@
     display: none;
     position: absolute;
   }
+
+  li {
+    display: none;
+    
+  }
   
-  .dropbtn:hover #dropcont {
+  ul:hover li {
     display:block;
+    color: green;
+    position:absolute;
+  }
+
+  ul {
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    left:0px;
+    right:0px;
+    background-color: coral;
   }
